@@ -17,8 +17,8 @@ TEXT = (
 
 
 def entry_path() -> Path:
-    out_dir = Path(os.environ.get("MAKEFUN_OUTPUT_DIR", "/output"))
-    return out_dir / "entry.txt"
+    out_dir = os.environ.get("MAKEFUN_OUTPUT_DIR") or "/output"
+    return Path(out_dir) / "entry.txt"
 
 
 def main() -> None:
