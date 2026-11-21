@@ -43,5 +43,13 @@ are crowded — this entry uses a fresh image (lighthouse).
 - Entry BUILT in this session (v2 repo; the plain -v2 suffix is used because
   the base repo name was already taken by a separate pre-built entry in the
   workspace that this builder did not author and did not touch).
-  Kit check + bundle status recorded in the builder's report.
-  NOT SUBMITTED — awaiting Joni's 'Setuju' on the exact entry.
+  Latest commit: 5a9322345b27c7d92d8c9718f308525cd95f1403 (pushed).
+  Kit check 21 Nov ~10:33 WIB: 13 passed, 1 failed — thinking_priced only
+  (0 usage rows: a subagent's rows are written only once its run completes).
+  Bundle (draft): ~/workspace/tools/makefun/make-the-ai-judge-feel-brave-20261121-0302-v2-transcripts.tar.gz
+  (464,442 bytes, sha256 5037463722b4bbe5ae10334e922c1e6d5fcaca0e9a53232f274f24f017dea0c0).
+  BEFORE SUBMIT, the parent must re-export usage rows (muse.db SELECT for
+  agent_id bca5fdda-e5a5-4d28-aee2-4fced3b1e14a) to
+  ~/.makefun/muse-usage-make-the-ai-judge-feel-brave-20261121-0302-v2.jsonl,
+  re-bundle with --muse-usage, and re-check — then submit on Joni's 'Setuju'.
+  NOT SUBMITTED.
